@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo JavaScript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+        <div class="container form">
+            <form action="#" method="GET" enctype="text/plain" name="Sumar">
+                <fieldset>
+                    <legend class="text-center header">SUMAR DOS NUMEROS Con JavaScript</legend>
+                    <div class="mb-2">
+                        <input type="number" id="vNum1" name="vNum1" class="form-control" placeholder="Primer Número"/>
+                    </div>
+                    <div class="mb-2">
+                        <input type="number" id="vNum2" name="vNum2" class="form-control" placeholder="Segundo Número"/>
+                    </div>
+                    <div class="mb-2">
+                        <label for="vResultado">Resultado</label>
+                        <input type="number" id="vResultado" name="vResultado" class="form-control" placeholder=""/>
+                    </div>
+
+                    <div class="mb-3 d-grid">
+                        <button class="btn btn-primary btn-lg" type="button" onclick="Suma()">Sumar</button>
+                    </div>
+                </fieldset> 
+            </form>
+        </div>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+</html>
